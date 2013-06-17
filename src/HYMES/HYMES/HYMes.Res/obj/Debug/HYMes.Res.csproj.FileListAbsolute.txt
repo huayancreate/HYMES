@@ -1,0 +1,13 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Res.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Res.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.AboutForm.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.Banner.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.BottomControl.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.LoginForm.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.NavigationControl.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.Welcome.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Res\obj\Debug\HYMes.Res.csprojResolveAssemblyReference.cache

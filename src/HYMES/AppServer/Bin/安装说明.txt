@@ -1,0 +1,7 @@
+1.安装请以管理员身份运行install.bat
+2.卸载请以管理员身份运行unstall.bat
+
+3.请在计算机服务管理中启动或者停止服务 EASAppServer或者EASAppServer_实例名。
+
+魏琼东
+2010-10-31

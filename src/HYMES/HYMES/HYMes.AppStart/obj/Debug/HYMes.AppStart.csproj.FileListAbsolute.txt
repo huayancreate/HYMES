@@ -1,0 +1,8 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.AppStart.exe.config
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.AppStart.exe
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.AppStart.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.AppStart\obj\Debug\HYMes.AppStart.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.AppStart\obj\Debug\HYMes.AppStart.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.AppStart\obj\Debug\HYMes.AppStart.exe
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.AppStart\obj\Debug\HYMes.AppStart.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.AppStart\obj\Debug\HYMes.AppStart.csprojResolveAssemblyReference.cache

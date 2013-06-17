@@ -1,0 +1,5 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Entities.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Entities.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Entities\obj\Debug\HYMes.Entities.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Entities\obj\Debug\HYMes.Entities.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Entities\obj\Debug\HYMes.Entities.csprojResolveAssemblyReference.cache

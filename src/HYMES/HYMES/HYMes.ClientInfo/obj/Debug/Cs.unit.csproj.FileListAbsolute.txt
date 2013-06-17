@@ -1,0 +1,13 @@
+E:\学习资料教程\C#\Cs.unit\Cs.unit\bin\Debug\Cs.unit.exe
+E:\学习资料教程\C#\Cs.unit\Cs.unit\bin\Debug\Cs.unit.pdb
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\ResolveAssemblyReference.cache
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\Cs.unit.FrmTestData.resources
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\Cs.unit.Properties.Resources.resources
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\Cs.unit.csproj.GenerateResource.Cache
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\Cs.unit.FrmFunction.resources
+E:\学习资料教程\C#\Cs.unit\Debug\csUnit.pdb
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\csUnit.pdb
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\Cs.unit.FrmSocket.resources
+E:\学习资料教程\C#\Cs.unit\Debug\csUnit.dll.config
+E:\学习资料教程\C#\Cs.unit\Debug\csUnit.dll
+E:\学习资料教程\C#\Cs.unit\Cs.unit\obj\Debug\csUnit.dll

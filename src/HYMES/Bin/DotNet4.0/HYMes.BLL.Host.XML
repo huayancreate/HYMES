@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYMes.BLL.Host</name>
+    </assembly>
+    <members>
+        <member name="T:HYMes.BLL.BaseServiceObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.BLL.BaseServiceObject.DataAccessor">
+            <summary>
+            获取IDataAccessor对象实例
+            </summary>
+        </member>
+        <member name="P:HYMes.BLL.BaseServiceObject.GetGuidID">
+            <summary>
+            获取GUID值
+            </summary>
+        </member>
+        <member name="M:HYMes.BLL.BRMFactoryService.GetBRMFactoryDataSet">
+            <summary>
+            查询工厂信息
+            </summary>
+            <returns>DataSet</returns>
+        </member>
+    </members>
+</doc>

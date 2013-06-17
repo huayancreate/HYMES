@@ -1,0 +1,12 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Tracking.dll.config
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Tracking.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Tracking.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.FrmTrack.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.FrmTrackAssembly.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.FrmTrackCreate.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.FrmTrackPacking.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.Tracking\obj\Debug\HYMes.WinUI.Tracking.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.ControlUIExt.DataGridViewExt.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Base.dll.config
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Base.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Base.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.WinUI.Base.XML
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.WinUI.Base\obj\Debug\HYMes.WinUI.Base.csprojResolveAssemblyReference.cache

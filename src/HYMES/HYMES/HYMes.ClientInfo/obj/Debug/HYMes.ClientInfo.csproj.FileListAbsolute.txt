@@ -1,0 +1,13 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.ClientInfo.dll.config
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.ClientInfo.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.ClientInfo.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.ClientInfo.xml
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Unit.ClientInfo\obj\Debug\HYMes.ClientInfo.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Unit.ClientInfo\obj\Debug\HYMes.ClientInfo.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Unit.ClientInfo\obj\Debug\HYMes.ClientInfo.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Unit.ClientInfo\obj\Debug\HYMes.ClientInfo.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.ClientInfo\obj\Debug\HYMes.ClientInfo.csprojResolveAssemblyReference.cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.ClientInfo\obj\Debug\HYMes.ClientInfo.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.ClientInfo\obj\Debug\HYMes.ClientInfo.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.ClientInfo\obj\Debug\HYMes.ClientInfo.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.ClientInfo\obj\Debug\HYMes.ClientInfo.pdb

@@ -1,0 +1,14 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\ClassLibrary1\bin\Debug\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\ClassLibrary1\bin\Debug\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\ClassLibrary1\obj\Debug\HYMes.BLL.Contracts.csprojResolveAssemblyReference.cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\ClassLibrary1\obj\Debug\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\ClassLibrary1\obj\Debug\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Contracts\bin\Debug\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Contracts\bin\Debug\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\Bin\DotNet4.0\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\Bin\DotNet4.0\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Contracts\obj\Debug\HYMes.BLL.Contracts.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Contracts\obj\Debug\HYMes.BLL.Contracts.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Contracts\obj\Debug\HYMes.BLL.Contracts.csprojResolveAssemblyReference.cache

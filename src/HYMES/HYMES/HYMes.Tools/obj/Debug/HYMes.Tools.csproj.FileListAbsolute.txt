@@ -1,0 +1,12 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Tools\obj\Debug\HYMes.Tools.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Tools\obj\Debug\HYMes.Tools.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Tools.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Tools.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.Tools.xml
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Tools\obj\Debug\HYMes.Tools.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\Cs.Sys.Tools\obj\Debug\HYMes.Tools.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Tools\obj\Debug\HYMes.Tools.csprojResolveAssemblyReference.cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Tools\obj\Debug\HYMes.Tools.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Tools\obj\Debug\HYMes.Tools.csproj.GenerateResource.Cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Tools\obj\Debug\HYMes.Tools.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.Tools\obj\Debug\HYMes.Tools.pdb

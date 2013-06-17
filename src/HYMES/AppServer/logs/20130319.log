@@ -1,0 +1,1181 @@
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:05:41
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:44:46
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:04
+[内容]:BaseDirectory:=G:\DrugShop\AppServer\Bin\
+
+
+[类型]:Error
+[线程]:5
+[内存]:2.09M
+[时间]:2013-03-19 14:46:05
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:05
+[内容]:Location=G:\DrugShop\AppServer\Bin\EAS.Distributed.ServiceHost.dll
+
+
+[类型]:Error
+[线程]:5
+[内存]:5.59M
+[时间]:2013-03-19 14:46:05
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Error
+[线程]:5
+[内存]:0.95M
+[时间]:2013-03-19 14:46:05
+[内容]:无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+[来源]:mscorlib
+[目标]:System.Type[] GetTypes(System.Reflection.RuntimeModule)
+[堆栈]:   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 EAS.Distributed.xb140b283f0145ccd.xab3a1fb7fb70b363(Assembly xd3764619ec304ff0)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:05
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:05
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:06
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:06
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:06
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:06
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:46
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:46
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:47
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:47
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:47
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 14:46:47
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:23
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:23
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:24
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:24
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:24
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:24
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:44
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:51
+[内容]:BaseDirectory:=G:\DrugShop\AppServer\Bin\
+
+
+[类型]:Error
+[线程]:6
+[内存]:2.09M
+[时间]:2013-03-19 14:48:51
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:51
+[内容]:Location=G:\DrugShop\AppServer\Bin\EAS.Distributed.ServiceHost.dll
+
+
+[类型]:Error
+[线程]:6
+[内存]:5.59M
+[时间]:2013-03-19 14:48:51
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Error
+[线程]:6
+[内存]:0.95M
+[时间]:2013-03-19 14:48:51
+[内容]:无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+[来源]:mscorlib
+[目标]:System.Type[] GetTypes(System.Reflection.RuntimeModule)
+[堆栈]:   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 EAS.Distributed.xb140b283f0145ccd.xab3a1fb7fb70b363(Assembly xd3764619ec304ff0)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:51
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:51
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:52
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:52
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Error
+[线程]:6
+[内存]:1.00M
+[时间]:2013-03-19 14:48:52
+[内容]:调用的目标发生了异常。
+[来源]:mscorlib
+[目标]:System.Object _InvokeMethodFast(System.IRuntimeMethodInfo, System.Object, System.Object[], System.SignatureStruct ByRef, System.Reflection.MethodAttributes, System.RuntimeType)
+[堆栈]:   在 System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   在 System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 EAS.Distributed.RMIService.RemotingCall(Byte[] callPackage)
+
+
+[类型]:Error
+[线程]:6
+[内存]:1.00M
+[时间]:2013-03-19 14:48:52
+[内容]:容器中名称为TSqlLanguage的组件配置错误，请检查相关配置
+[来源]:EAS.MicroKernel
+[目标]:System.Object GetComponentInstance(System.String)
+[堆栈]:   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 EAS.Objects.x15a259eba11c3b5b.x930184403acba751(String x43163d22e8cd5a71, String xbf5efe8743edba7b)
+   在 EAS.Objects.x15a259eba11c3b5b.Create()
+   在 EAS.Objects.Lifecycle.PerThreadLifestyleManager.Resolve()
+   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 EAS.Objects.x15a259eba11c3b5b.x930184403acba751(String x43163d22e8cd5a71, String xbf5efe8743edba7b)
+   在 EAS.Objects.x15a259eba11c3b5b.Create()
+   在 EAS.Objects.Lifecycle.SingletonLifestyleManager.Resolve()
+   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 K26LWkiphHw.AX6WaTjthx65TR5yEvdUB.AEIDnBqblXEJPAeyA()
+   在 K26LWkiphHw.AX6WaTjthx65TR5yEvdUB..ctor(IDataAccessor , IOrmAccessor )
+   在 EAS.Data.Linq.Query`1..ctor(IDataAccessor dataAccessor, IOrmAccessor ormAccessor)
+   在 EAS.Data.Linq.Query`1..ctor()
+   在 EAS.Data.Linq.DataEntityQuery`1..ctor()
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:48:52
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:50:59
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:09
+[内容]:BaseDirectory:=G:\DrugShop\AppServer\Bin\
+
+
+[类型]:Error
+[线程]:8
+[内存]:2.10M
+[时间]:2013-03-19 14:51:09
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:09
+[内容]:Location=G:\DrugShop\AppServer\Bin\EAS.Distributed.ServiceHost.dll
+
+
+[类型]:Error
+[线程]:8
+[内存]:5.60M
+[时间]:2013-03-19 14:51:09
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Error
+[线程]:8
+[内存]:0.95M
+[时间]:2013-03-19 14:51:09
+[内容]:无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+[来源]:mscorlib
+[目标]:System.Type[] GetTypes(System.Reflection.RuntimeModule)
+[堆栈]:   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 EAS.Distributed.xb140b283f0145ccd.xab3a1fb7fb70b363(Assembly xd3764619ec304ff0)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:09
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:09
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:12
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:12
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:12
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 14:51:12
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:14
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:28
+[内容]:BaseDirectory:=G:\DrugShop\AppServer\Bin\
+
+
+[类型]:Error
+[线程]:9
+[内存]:2.09M
+[时间]:2013-03-19 14:52:28
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:28
+[内容]:Location=G:\DrugShop\AppServer\Bin\EAS.Distributed.ServiceHost.dll
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.59M
+[时间]:2013-03-19 14:52:28
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Error
+[线程]:9
+[内存]:0.95M
+[时间]:2013-03-19 14:52:28
+[内容]:无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+[来源]:mscorlib
+[目标]:System.Type[] GetTypes(System.Reflection.RuntimeModule)
+[堆栈]:   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 EAS.Distributed.xb140b283f0145ccd.xab3a1fb7fb70b363(Assembly xd3764619ec304ff0)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:29
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:29
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:31
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:31
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Error
+[线程]:6
+[内存]:1.00M
+[时间]:2013-03-19 14:52:31
+[内容]:调用的目标发生了异常。
+[来源]:mscorlib
+[目标]:System.Object _InvokeMethodFast(System.IRuntimeMethodInfo, System.Object, System.Object[], System.SignatureStruct ByRef, System.Reflection.MethodAttributes, System.RuntimeType)
+[堆栈]:   在 System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   在 System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 EAS.Distributed.RMIService.RemotingCall(Byte[] callPackage)
+
+
+[类型]:Error
+[线程]:6
+[内存]:1.00M
+[时间]:2013-03-19 14:52:31
+[内容]:容器中名称为TSqlLanguage的组件配置错误，请检查相关配置
+[来源]:EAS.MicroKernel
+[目标]:System.Object GetComponentInstance(System.String)
+[堆栈]:   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 EAS.Objects.x15a259eba11c3b5b.x930184403acba751(String x43163d22e8cd5a71, String xbf5efe8743edba7b)
+   在 EAS.Objects.x15a259eba11c3b5b.Create()
+   在 EAS.Objects.Lifecycle.PerThreadLifestyleManager.Resolve()
+   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 EAS.Objects.x15a259eba11c3b5b.x930184403acba751(String x43163d22e8cd5a71, String xbf5efe8743edba7b)
+   在 EAS.Objects.x15a259eba11c3b5b.Create()
+   在 EAS.Objects.Lifecycle.SingletonLifestyleManager.Resolve()
+   在 EAS.Objects.DefaultContainer.GetComponentInstance(String componentKey)
+   在 K26LWkiphHw.AX6WaTjthx65TR5yEvdUB.AEIDnBqblXEJPAeyA()
+   在 K26LWkiphHw.AX6WaTjthx65TR5yEvdUB..ctor(IDataAccessor , IOrmAccessor )
+   在 EAS.Data.Linq.Query`1..ctor(IDataAccessor dataAccessor, IOrmAccessor ormAccessor)
+   在 EAS.Data.Linq.Query`1..ctor()
+   在 EAS.Data.Linq.DataEntityQuery`1..ctor()
+   在 EAS.Explorer.BLL.LoginService.GetAccountInfo(String organ, String loginID, String password)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:52:31
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:25
+[内容]:Start AgileEAS.NET SOA Server...
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:ImPort:0TcpPort:6607,HttpPort:6608
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Loading Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RMIService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RMIService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Open Service:Key=EAS.RMIService,Description=,Type=EAS.Distributed.RMIService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Loading Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.RIAService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.RIAService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Open Service:Key=EAS.RIAService,Description=,Type=EAS.Distributed.RIAService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Loading Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:http://localhost:6608/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddServiceEndpoint:net.tcp://localhost:6607/eas/services/EAS.UpdateService
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AddMetadataExchange:net.tcp://localhost:6607/eas/services/EAS.UpdateService/mex
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:Open Service:Key=EAS.UpdateService,Description=,Type=EAS.SmartUpdate.UpdateService。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:56:26
+[内容]:AgileEAS.NET SOA Server Startup。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:24
+[内容]:BaseDirectory:=G:\DrugShop\AppServer\Bin\
+
+
+[类型]:Error
+[线程]:5
+[内存]:2.08M
+[时间]:2013-03-19 14:58:24
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:24
+[内容]:Location=G:\DrugShop\AppServer\Bin\EAS.Distributed.ServiceHost.dll
+
+
+[类型]:Error
+[线程]:5
+[内存]:5.59M
+[时间]:2013-03-19 14:58:24
+[内容]:混合模式程序集是针对“v2.0.50727”版的运行时生成的，在没有配置其他信息的情况下，无法在 4.0 运行时中加载该程序集。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 EAS.Distributed.xb140b283f0145ccd.x551c23dd563930ed(String x61b4fd6f6946cac4)
+
+
+[类型]:Error
+[线程]:5
+[内存]:0.95M
+[时间]:2013-03-19 14:58:24
+[内容]:无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+[来源]:mscorlib
+[目标]:System.Type[] GetTypes(System.Reflection.RuntimeModule)
+[堆栈]:   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 EAS.Distributed.xb140b283f0145ccd.xab3a1fb7fb70b363(Assembly xd3764619ec304ff0)
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:24
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:24
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:25
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 14:58:25
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:46
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:46
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Data.Access.IDataAccessor.Query
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.INavigationService.GetNavigation
+
+
+[类型]:Info
+[时间]:2013-03-19 15:08:48
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:23
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Services.ITimeService.GetCurrentTime
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:23
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILoginService.GetAccountInfo
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.ILogService.Log
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Data.Access.IDataAccessor.Query
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:处理完成，打包数据。
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:MAC:005056C00008,HostName:yang-x230/fe80::987e:34a6:cca8:88a4%11，Invoke:EAS.Explorer.BLL.INavigationService.GetNavigation
+
+
+[类型]:Info
+[时间]:2013-03-19 15:09:25
+[内容]:处理完成，打包数据。
+
+

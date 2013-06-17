@@ -1,0 +1,4 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.BRM\obj\Debug\HYMes.WinUI.BRM.FrmBrm.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.BRM\obj\Debug\HYMes.WinUI.BRM.FrmBrmFactory.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.BRM\obj\Debug\HYMes.UI.BRM.Properties.Resources.resources
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.UI.BRM\obj\Debug\HYMes.UI.BRM.csproj.GenerateResource.Cache

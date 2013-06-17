@@ -1,0 +1,1160 @@
+2013-06-12 09:41:11,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:2.62M
+[时间]:2013-06-12 09:41:11
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:2.74M
+[时间]:2013-06-12 09:41:11
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+2013-06-12 09:41:11,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:2.86M
+[时间]:2013-06-12 09:41:11
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 09:41:12,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.66M
+[时间]:2013-06-12 09:41:12
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 09:41:12,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.79M
+[时间]:2013-06-12 09:41:12
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:7.96M
+[时间]:2013-06-12 09:41:15
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:8.09M
+[时间]:2013-06-12 09:41:15
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:7.22M
+[时间]:2013-06-12 09:41:15
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:7.33M
+[时间]:2013-06-12 09:41:15
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 09:41:39,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:6
+[内存]:2.63M
+[时间]:2013-06-12 09:41:39
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 09:41:39,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:11
+[内存]:2.75M
+[时间]:2013-06-12 09:41:39
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+[类型]:Error
+[线程]:6
+[内存]:2.85M
+[时间]:2013-06-12 09:41:39
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 09:41:39,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:6
+[内存]:6.66M
+[时间]:2013-06-12 09:41:39
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 09:41:39,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:6
+[内存]:6.77M
+[时间]:2013-06-12 09:41:39
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:6.08M
+[时间]:2013-06-12 09:41:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:6.20M
+[时间]:2013-06-12 09:41:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:3.55M
+[时间]:2013-06-12 09:41:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:3.66M
+[时间]:2013-06-12 09:41:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:11:21,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.61M
+[时间]:2013-06-12 10:11:21
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:3.61M
+[时间]:2013-06-12 10:11:21
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:11:22,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.85M
+[时间]:2013-06-12 10:11:22
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:3.94M
+[时间]:2013-06-12 10:11:22
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+2013-06-12 10:11:22,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.75M
+[时间]:2013-06-12 10:11:22
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:11:22,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:3
+[内存]:3.87M
+[时间]:2013-06-12 10:11:22
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.39M
+[时间]:2013-06-12 10:11:25
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:5.51M
+[时间]:2013-06-12 10:11:25
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:3.73M
+[时间]:2013-06-12 10:11:25
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:3.86M
+[时间]:2013-06-12 10:11:25
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:12:20,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:10
+[内存]:3.62M
+[时间]:2013-06-12 10:12:20
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:11
+[内存]:3.61M
+[时间]:2013-06-12 10:12:20
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:12:20,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:10
+[内存]:3.83M
+[时间]:2013-06-12 10:12:20
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:11
+[内存]:3.94M
+[时间]:2013-06-12 10:12:20
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+2013-06-12 10:12:21,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:10
+[内存]:3.74M
+[时间]:2013-06-12 10:12:21
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:12:21,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:10
+[内存]:3.88M
+[时间]:2013-06-12 10:12:21
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.78M
+[时间]:2013-06-12 10:12:22
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:4.91M
+[时间]:2013-06-12 10:12:22
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:1.81M
+[时间]:2013-06-12 10:12:23
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:9
+[内存]:1.96M
+[时间]:2013-06-12 10:12:23
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:19:37,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:4
+[内存]:2.61M
+[时间]:2013-06-12 10:19:37
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:11
+[内存]:2.61M
+[时间]:2013-06-12 10:19:37
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:19:37,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:4
+[内存]:2.85M
+[时间]:2013-06-12 10:19:37
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:11
+[内存]:2.94M
+[时间]:2013-06-12 10:19:37
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+2013-06-12 10:19:38,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:4
+[内存]:6.72M
+[时间]:2013-06-12 10:19:38
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:19:38,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:4
+[内存]:6.84M
+[时间]:2013-06-12 10:19:38
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:7.10M
+[时间]:2013-06-12 10:19:39
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:7.23M
+[时间]:2013-06-12 10:19:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:8.30M
+[时间]:2013-06-12 10:19:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:8.40M
+[时间]:2013-06-12 10:19:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:21:30,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:11
+[内存]:3.62M
+[时间]:2013-06-12 10:21:30
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+2013-06-12 10:21:40,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:11
+[内存]:2.63M
+[时间]:2013-06-12 10:21:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:6
+[内存]:2.63M
+[时间]:2013-06-12 10:21:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:21:40,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:11
+[内存]:2.84M
+[时间]:2013-06-12 10:21:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:6
+[内存]:2.88M
+[时间]:2013-06-12 10:21:40
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:21:41,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll时出错
+
+[类型]:Error
+[线程]:6
+[内存]:1.92M
+[时间]:2013-06-12 10:21:41
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+2013-06-12 10:21:41,Error - 初始化序列化==>加载程序集:F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll时出错
+
+[类型]:Error
+[线程]:6
+[内存]:2.07M
+[时间]:2013-06-12 10:21:41
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ASG74a44NWEteO0pe2F.NxK3Uj4n5yKfkYhU5OB.sLVccbTghw(String )
+
+
+[类型]:Error
+[线程]:11
+[内存]:2.07M
+[时间]:2013-06-12 10:21:41
+[内容]:文件“F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\logs\Error\20130612.log”正由另一进程使用，因此该进程无法访问此文件。
+[来源]:mscorlib
+[目标]:Void WinIOError(Int32, System.String)
+[堆栈]:   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 System.IO.File.AppendText(String path)
+   在 EAS.Services.TextLogger.Yoju9pAYm8OgRdqeDab(Object )
+   在 EAS.Services.TextLogger.E4apVNWEte(cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.nU5pIOB0SG(StringBuilder , cltCKunA6ct1woo0Mhe )
+   在 EAS.Services.TextLogger.EAS.Services.ILogger.Error(Exception exc)
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.deBLhs5Qt66JMAUZiIE(Object , Object )
+   在 ocMIOinStqCwKZ2arLP.UD1wfbnlvcuh9faL2go.sdDv3Ur0el(Exception )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.LVI2J6azSjVskJmQ9Fl(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.Initialize()
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC.lpmGhhd4ue8bQAbF633(Object )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(String , IAssemblyLoader )
+   在 uS1gDNn0kdAloYikVhH.xZOIYZnF9qRWPCtsavC..ctor(IAssemblyLoader )
+   在 EAS.Objects.ContainerBuilder.Builder(IAssemblyLoader loader)
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.DjC2Zn5el095EqRgkI(Object )
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR..ctor()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WjV0BnIAF()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.XXXUuvaLX2f1b2yjLw()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.SV9MRxXPO()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.WtVucRPMr5VmGaHEKv()
+   在 oQExwNYCUfs1Y9kU5J.MrymGFpXD2KPY3c1GR.ppUFmGgW4(Type )
+   在 EAS.Services.DirectServiceBridger.CAOHT5vXbXnvTAdT7M(Type )
+   在 EAS.Services.DirectServiceBridger.InvokeMethod(Type serviceType, MethodBase method, Object[] args)
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.oakVATW7hBxojZIppXX(Object , Type serviceType, Object , Object )
+   在 KOyi3FnqQTQ8wHb7i3g.sCcYBpnEGUyBNbSeCIg.Intercept(IInvocation , Object[] args)
+   在 xNx2krndBHYKw7XxXD2.wF7Zw9nTtc82PkHSRGK.Invoke(IMessage )
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 EAS.Services.ITimeService.GetCurrentTime()
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.ugLoTNB3tnp2mupxgXZ(Object )
+   在 NFxYsDRLPuNKsDg4uf3.artxlTR3FJoj1pqX0f9.JyQCfjhLE4()
+
+
+[类型]:Error
+[线程]:10
+[内存]:1.49M
+[时间]:2013-06-12 10:21:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:1.63M
+[时间]:2013-06-12 10:21:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:2.02M
+[时间]:2013-06-12 10:21:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\grdes50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+
+[类型]:Error
+[线程]:10
+[内存]:2.16M
+[时间]:2013-06-12 10:21:42
+[内容]:未能加载文件或程序集“file:///F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\gregn50.dll”或它的某一个依赖项。该模块应包含一个程序集清单。
+[来源]:mscorlib
+[目标]:System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+[堆栈]:   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   在 System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.qY5ZVgpGGEiheaoT66Q(Object )
+   在 ELNFgb4UIs6y0oZEVY4.p9rEDf4YL2ZMhBciGgh.B5AcylsUng(String )
+
+

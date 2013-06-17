@@ -1,0 +1,5 @@
+1.bin目录中是EAS.AppServer.exe的运行文件，可以把应用项目的服务程序集部署在这里面。
+2.XClient目录是ActiveXForm、WinClient运行怕必需的升级文件。
+
+魏琼东
+2010-11-05

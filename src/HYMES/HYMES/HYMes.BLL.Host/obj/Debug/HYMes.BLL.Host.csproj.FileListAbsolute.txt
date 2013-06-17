@@ -1,0 +1,6 @@
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.BLL.Host.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.BLL.Host.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Host\obj\Debug\HYMes.BLL.Host.dll
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Host\obj\Debug\HYMes.BLL.Host.pdb
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\HYMES\HYMes.BLL.Host\obj\Debug\HYMes.BLL.Host.csprojResolveAssemblyReference.cache
+F:\AgileEAS.NET SOA平台框架\药店平台\HYMES\Bin\DotNet4.0\HYMes.BLL.Host.XML

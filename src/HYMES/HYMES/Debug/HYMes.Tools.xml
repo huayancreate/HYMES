@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYMes.Tools</name>
+    </assembly>
+    <members>
+        <member name="T:HYMes.Tools.Bparmaters">
+            <summary>
+            参数使用
+            </summary>
+        </member>
+        <member name="T:HYMes.Tools.Bparmaters.ACKresult">
+            <summary>
+            返回执行的结果
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.Bparmaters.ACKresult.OK">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.Bparmaters.ACKresult.NG">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="T:HYMes.Tools.DataSetExt">
+            <summary>
+            对数据集的扩充
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.DataSetExt.dsResult">
+            <summary>
+            返回执行的记录集
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.DataSetExt.ackResult">
+            <summary>
+            返回执行的状态
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.DataSetExt.errMessage">
+            <summary>
+            执行发生异常的时候，提示一般异常信息及打印SQl
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.DataSetExt.errMessageStackTrace">
+            <summary>
+            执行发生异常StackTrace
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.DataSetExt.intCnt">
+            <summary>
+            返回执行数据操纵时候执行完成后影响的行数
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.DataSetExt.IntCnt">
+            <summary>
+            返回执行数据操纵时候执行完成后影响的行数
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.DataSetExt.ErrMessageStackTrace">
+            <summary>
+            执行发生异常StackTrace
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.DataSetExt.DsResult">
+            <summary>
+            返回执行的记录集
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.DataSetExt.AckResult">
+            <summary>
+            返回执行的状态
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.DataSetExt.ErrMessage">
+            <summary>
+            执行发生异常的时候，提示一般异常信息及打印SQl
+            </summary>
+        </member>
+        <member name="T:HYMes.Tools.EditFormEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.EditFormEventArgs.dsLog">
+            <summary>
+            日志记录集
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.EditFormEventArgs.currentFormMode">
+            <summary>
+            当前编辑界面类型
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.EditFormEventArgs.dsMaster">
+            <summary>
+            主数据记录表
+            </summary>
+        </member>
+        <member name="F:HYMes.Tools.EditFormEventArgs.selectedRow">
+            <summary>
+            由主界面传过来的datagridviewrow
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.EditFormEventArgs.SelectedRow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.EditFormEventArgs.DsLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.EditFormEventArgs.DsMaster">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.ExcelGridImport.EcxelToDataSet(System.String)">
+            <summary>
+            根据路径打开一个Excel文件并将数据填充到DataSet中
+            </summary>
+            <param name="filePath"></param>
+            <param name="dgv"></param>
+        </member>
+        <member name="M:HYMes.Tools.ExcelGridImport.DataGridView2Excel(System.Windows.Forms.DataGridView,System.String)">
+            <summary>   
+            将DataGridView中的数据导入到Excel中
+            </summary>   
+            <param name="datagridview">DataGridView</param>   
+            <param name="SheetName">Excel sheet title</param>   
+        </member>
+        <member name="T:HYMes.Tools.ExportToExcelProvider">
+            <summary>
+            标题：将 DataSet, DataTable 导出到 Excel
+            作者：肖小勇
+            日期：2012-07-01
+            描述：对之前做的导出 Excel 做调整以支持对 DataSet 及 DataTable 的导出；
+            DataSet     导出时可以指定需要导出的 DataTable
+            DataTable   导出时可以指定需要导出的 DataColumn 及自定义导出后的列名
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.ExportToExcelProvider.ExportToExcel(System.Data.DataSet,System.String)">
+            <summary>
+            将
+            </summary>
+            <param name="fDataSet"></param>
+            <param name="fFileName"></param>
+        </member>
+        <member name="M:HYMes.Tools.ExportToExcelProvider.ExportToExcel(System.Collections.Generic.List{HYMes.Tools.DataTableExportOptions},System.String)">
+            <summary>
+            将 DataTable 导出到 Excel
+            </summary>
+            <param name="fOptions"></param>
+        </member>
+        <member name="M:HYMes.Tools.ExportToExcelProvider.ExportToExcel(Excel.Application,Excel._Workbook,Excel.Worksheet,HYMes.Tools.DataTableExportOptions)">
+            <summary>
+            将 DataTable 导出到 Excel
+            </summary>
+            <param name="fApplication"></param>
+            <param name="fWorkBook"></param>
+            <param name="fOption"></param>
+        </member>
+        <member name="T:HYMes.Tools.FTPDownUp">
+            <summary>
+            文件的FTP上传与FTP下载
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            FTP构造函数
+            </summary>
+            <param name="serverAdd">FTP服务器地址</param>
+            <param name="serverPort">FTP服务器端口号</param>
+            <param name="userID">登录FTP服务器的账号</param>
+            <param name="password">登录FTP服务器的账号密码</param>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.FTPDownload(System.String,System.String,System.String,System.String,System.String@)">
+            <summary>
+            文件下载
+            </summary>
+            <param name="remoteFilePath">远程FTPServer上的路径</param>
+            <param name="remoteFileName">远程FTPServer杀过的文件名称</param>
+            <param name="localFilePath">本地目录，以“\”分隔每一级目录。如果为空，下载到当前目录。如果非空，以“\”结尾</param>
+            <param name="localFileName">本地文件名，如果为空，则与远程文件同名</param>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.FTPUpload(System.String,System.String,System.IO.FileInfo,System.String@)">
+            <summary>   
+            FTP上传文件   
+            </summary>   
+            <param name="remoteFilePath">远程目录，以“/”分隔每一级目录。如果非空，以“/”结尾</param>   
+            <param name="remoteFileName">远程文件名，如果为空，则与本地文件同名</param>   
+            <param name="localFilePath">本地目录，以“\”分隔每一级目录。如果为空，下载到当前目录。如果非空，以“\”结尾</param>   
+            <param name="localFileName">本地文件名</param>   
+            <param name="info"></param>   
+            <returns></returns>   
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.ChkAndSetDir(System.String)">
+            <summary>
+            如果目录不存在，将创建新目录
+            </summary>
+            <param name="objPath"></param>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.DirExist(System.String)">
+            <summary>
+            判定该目录是否存在
+            </summary>
+            <param name="objPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYMes.Tools.FTPDownUp.FTPDownload(System.String,System.String,System.String@)">
+            <summary>
+            FTP文件下载
+            </summary>
+            <param name="remoteFilePathAndFileName">远程需要下载的文件路径及名称</param>
+            <param name="localFilePathAndName">本地需要下载的文件路径及名称</param>
+            <param name="info"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HYMes.Tools.FTPDownUp.ServerAddr">
+            <summary>
+            FTP服务器地址
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.FTPDownUp.ServerPort">
+            <summary>
+            FTP服务器端口号
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.FTPDownUp.UserID">
+            <summary>
+            登录FTP服务器的账号
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.FTPDownUp.Password">
+            <summary>
+            登录FTP服务器的账号密码
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:HYMes.Tools.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:HYMes.Tools.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:HYMes.Tools.Public">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.Public.FindControlShow(System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            使控件组件中的子控件清空并将enable属性设为Enable
+            </summary>
+            <param name="ctc"></param>
+        </member>
+        <member name="T:HYMes.Tools.RegexExp">
+            <summary>
+            常用正则表达式
+            </summary>
+        </member>
+        <member name="M:HYMes.Tools.RegexExp.IsMailAddress(System.String)">
+            <summary>
+            确认输入的邮件地址是否是合法的
+            </summary>
+            <param name="mailAddress">待匹配的、输入的邮件地址</param>
+            <returns>Boolean True为合法的、false为非法的邮件的地址</returns>
+        </member>
+        <member name="M:HYMes.Tools.RegexExp.IsTelephoneNumber(System.String)">
+            <summary>
+             确认输入的电话号码是否是合法的
+            </summary>
+            <param name="telephoneNumber">输入的电话号码</param>
+            <returns>Boolean True为合法的、false为非法的电话号码</returns>
+        </member>
+        <member name="M:HYMes.Tools.RegexExp.IsNumber(System.String)">
+            <summary>
+             确认输入的是否是合法数值(数字)
+            </summary>
+            <param name="Number">输入的数值字符串</param>
+            <returns>Boolean True为合法的、false为非法的数值</returns>
+        </member>
+        <member name="M:HYMes.Tools.RegexExp.IsCurr(System.String)">
+            <summary>
+            确认输入的字符串是否为货币型
+            </summary>
+            <param name="Curr">输入的货币字符串</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

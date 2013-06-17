@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYMes.WinUI.BaseControl</name>
+    </assembly>
+    <members>
+        <member name="M:HYMes.WinUI.BaseControl.DataGridViewExt.OnRowPostPaint(System.Windows.Forms.DataGridViewRowPostPaintEventArgs)">
+            <summary>
+            增加datagridview前面的序列号
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.DataGridViewExt.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.DataGridViewExt.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.DataGridViewExt.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.Base.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.pageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.nMax">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.pageCount">
+            <summary>
+            页数＝总记录数/每页显示行数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.pageCurrent">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.nCurrent">
+            <summary>
+            当前记录行 
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.pagingData">
+            <summary>
+            用来存放分页的数据
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.allGridData">
+            <summary>
+            存放datagridview的数据集对象,非分页信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcBRM.InitDataSet">
+            <summary>
+            初始化控件信息，算出及获取每页显示的记录数及总页数、当前页数等信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcBRM.LoadData">
+            <summary>
+            根据页码显示出当前页的记录数
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcBRM.bdnInfo_ItemClicked(System.Object,System.Windows.Forms.ToolStripItemClickedEventArgs)">
+            <summary>
+            toolstrip的单击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.frmEdit">
+            <summary>
+            单击编辑、添加、修改按钮时弹出的子窗体
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.currentFormMode">
+            <summary>
+            按钮类型
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.dsMaster">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcBRM.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcBRM.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcBRM.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.PageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.AllGridData">
+            <summary>
+            datagridview的数据集信息
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.SourceDataGridView">
+            <summary>
+            sourceDataGridView,需要操作的datagridview对象,分页与增删改共用的datagridview
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.DsMaster">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.CurrentFormMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcBRM.FrmEdit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:HYMes.WinUI.BaseControl.UcBRM.RefreshEventHandler">
+            <summary>
+            刷新事件
+            </summary>
+        </member>
+        <member name="T:HYMes.WinUI.BaseControl.UcBRM.AfterClickRefreshEventHandler">
+            <summary>
+            刷新按钮的事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYMes.WinUI.BaseControl.UcPaging">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.#ctor">
+            <summary>
+            dataGridView控件的分页事件
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.pageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.nMax">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.pageCount">
+            <summary>
+            页数＝总记录数/每页显示行数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.pageCurrent">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.nCurrent">
+            <summary>
+            当前记录行 
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.pagingData">
+            <summary>
+            用来存放分页的数据
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.allGridData">
+            <summary>
+            存放datagridview的数据集对象,非分页信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.InitDataSet">
+            <summary>
+            初始化控件信息，算出及获取每页显示的记录数及总页数、当前页数等信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.LoadData">
+            <summary>
+            根据页码显示出当前页的记录数
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.bdnInfo_ItemClicked(System.Object,System.Windows.Forms.ToolStripItemClickedEventArgs)">
+            <summary>
+            toolstrip的单击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcPaging.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcPaging.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcPaging.PageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcPaging.AllGridData">
+            <summary>
+            datagridview的数据集信息
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcPaging.SourceDataGridView">
+            <summary>
+            sourceDataGridView,需要操作的datagridview对象
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTabControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTabControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTabControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYMes.WinUI.BaseControl.UcTools">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.pageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.nMax">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.pageCount">
+            <summary>
+            页数＝总记录数/每页显示行数
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.pageCurrent">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.nCurrent">
+            <summary>
+            当前记录行 
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.pagingData">
+            <summary>
+            用来存放分页的数据
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.allGridData">
+            <summary>
+            存放datagridview的数据集对象,非分页信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.InitDataSet">
+            <summary>
+            初始化控件信息，算出及获取每页显示的记录数及总页数、当前页数等信息
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.LoadData">
+            <summary>
+            根据页码显示出当前页的记录数
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.bdnInfo_ItemClicked(System.Object,System.Windows.Forms.ToolStripItemClickedEventArgs)">
+            <summary>
+            toolstrip的单击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.frmEdit">
+            <summary>
+            单击编辑、添加、修改按钮时弹出的子窗体
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.currentFormMode">
+            <summary>
+            按钮类型
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.dsMaster">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HYMes.WinUI.BaseControl.UcTools.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYMes.WinUI.BaseControl.UcTools.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.PageSize">
+            <summary>
+            DataGridView的分页时候，每页显示的记录数
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.AllGridData">
+            <summary>
+            datagridview的数据集信息
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.SourceDataGridView">
+            <summary>
+            sourceDataGridView,需要操作的datagridview对象,分页与增删改共用的datagridview
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.DsMaster">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.CurrentFormMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.UcTools.FrmEdit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:HYMes.WinUI.BaseControl.UcTools.RefreshEventHandler">
+            <summary>
+            刷新事件
+            </summary>
+        </member>
+        <member name="T:HYMes.WinUI.BaseControl.UcTools.AfterClickRefreshEventHandler">
+            <summary>
+            刷新按钮的事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYMes.WinUI.BaseControl.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:HYMes.WinUI.BaseControl.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

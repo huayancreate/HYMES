@@ -1,0 +1,177 @@
+﻿正在安装程序集“E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+已成功安装服务 EAS_SOA_Server_DRUGSHOP。
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在提交程序集“E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = E:\AgileEAS.NET\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在卸载程序集“G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe
+正在移除 EventLog 源 EAS_SOA_Server_DRUGHOUSE。
+在卸载 System.Diagnostics.EventLogInstaller 安装程序的过程中发生异常。
+System.Security.SecurityException: 未找到源，但未能搜索某些或全部事件日志。不可访问的日志: Security。
+在卸载的过程中发生异常。将忽略该异常并继续卸载。但是，在卸载完成之后应用程序可能未完全卸载。
+正在安装程序集“G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\Drugshop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+在 System.Diagnostics.EventLogInstaller 安装程序的“回滚”阶段发生异常。
+System.Security.SecurityException: 未找到源，但未能搜索某些或全部事件日志。不可访问的日志: Security。
+在安装的“回滚”阶段发生异常。将忽略该异常并继续回滚。但是，在完成回滚后计算机可能无法完全还原到它的初始状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+已成功安装服务 EAS_SOA_Server_DRUGSHOP。
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在提交程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
+正在卸载程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在移除 EventLog 源 EAS_SOA_Server_DRUGSHOP。
+正在从系统中移除服务 EAS_SOA_Server_DRUGSHOP...
+已成功地从系统中移除服务 EAS_SOA_Server_DRUGSHOP。
+尝试停止服务 EAS_SOA_Server_DRUGSHOP。
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+已成功安装服务 EAS_SOA_Server_DRUGSHOP。
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在提交程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在安装服务 EAS_SOA_Server_DRUGSHOP...
+正在日志 Application 中创建 EventLog 源 EAS_SOA_Server_DRUGSHOP...
+正在回滚程序集“G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.InstallLog
+   assemblypath = G:\DrugShop\AppServer\Bin\EAS.SOA.Server.exe
+正在将事件日志还原到源 EAS_SOA_Server_DRUGSHOP 的前一状态。
